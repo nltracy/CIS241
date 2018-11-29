@@ -7,7 +7,7 @@ Instructor Ho
 
 I. INTRODUCTION
 
-	A. This document defines the nature of each web page within the site. See the Features and Purposes sections for further information. Questions and comments can be left in the guestbook at <insert website>, or directed to my email above.
+	A. This document defines the nature of each web page within the site. See the Features and Purposes sections for further information. Questions and comments can be directed to the email above.
 
 II. FEATURES OF THE WEBSITE
 
@@ -22,10 +22,14 @@ II. FEATURES OF THE WEBSITE
 	C. Reflections page - A collection of thoughts on the past school quarter, and how it fits in to the pattern of all things.
 	D. Resume page - Current Education, Past work experience, and future goals.
 	E. Guestbook - Send me your thoughts 
-		i. POST method keeps infoprmation private
+		i. POST method keeps information private
 		ii. Feedback gathering mechanism
 
 III. PURPOSES
 
 	A. Increase brand recognition of Nathan Tracy
 	B. Show interesting things that other may be curious about.
+	C. Demonstrate working knowledge of HTML, CSS, and scripting techniques.
+	
+IV. NOTES
+	A. Guestbook currently linked to CiW's response script, must migrate to permanent server.
