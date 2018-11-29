@@ -17,10 +17,9 @@ II. FEATURES AND PURPOSES OF THE WEBSITE
 		iii. Feature of the Month - A personal favorite of mine. May or may not be my work, but I want you to see it.
 	B. Interests page - Items of particular interest will be showcased here.
 		i. Links that go outside of this website may be made available.
-		ii. A selection of hobbies, sports, and academic pursuits.
-	C. Reflections page -
-	D. Resume page -
-	E. Guestbook -
-	
-
-
+		ii. A selection of hobbies, sports, and academic pursuits shall be listed.
+	C. Reflections page - A collection of thoughts on the past school quarter, and how it fits in to the pattern of all things.
+	D. Resume page - Current Education, Past work experience
+	E. Guestbook - Send me your thoughts 
+		i. POST method keeps infoprmation private
+		ii. Feedback gathering mechanism

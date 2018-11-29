@@ -1,16 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>Guestbook - Nathan TRACY</title>
-	<link rel="stylesheet" type="text/css" href="form.css">
+	<link rel="stylesheet" type="text/css" href="css/MyStyle.css"/>
 	<meta name="keywords" content="EdCC, Personal, Final"/>
+	<meta name="author" content="Nathan Tracy"/>
 	<meta name="description" content="Final Project and Homepage for N L Tracy, CIS 241"/>
 	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--Default zoom 100% -->
+	<meta http-equiv="default-style" content="myStyle.css"/>
+	
+<script>  <!-- Basic backwards compatability for older browsers -->
+	document.createElement("article");
+	document.createElement("footer");
+	document.createElement("header");
+	document.createElement("nav");
+</script>
+	
+	<script src="Scripts/date.js"></script> <!--Date functions -->
+	
 </head>
 
-<-- Insert Nav structure here and feed pages as required. 
+	
 
 <body>
-	<h1>TRACY Guestbook, under construction</h1>
+
+<header>
+<div style="position:fixed;left:50%;top:0;transform: translateX(-50%);border: 3px solid #FFFFFF;clear:both;	color:#FFFFFF;min-width:590px;max-width:960px;height:130px;
+margin: auto;display:block;text-align: center;font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;font-size: 100%;padding: 0px;margin-top: 0;background-color:#000000;">
+<h1 style="color:white;font-size:300%;margin-top:10px;text-align:center;">Nathan Tracy, briefly</h1>
+<p style="font-size:120%;"><strong><a href="home.html">HOME</a> | <a href="interests.html">INTERESTS</a> | <a href="reflections.html">REFLECTIONS</a> | <a href="resume.html">RESUME</a> | GUESTBOOK</strong></p>
+
+</div>
+</header> 
+
+<article style="top:135px;padding:2px;left:50%;margin:auto;min-width:590px;max-width:960px;background-color:#CADD92;display:block;">
+<!-- more than one, yeah? Dont forget the asides -->
+	<h2 style="padding-top:125px">GUESTBOOK</h2>
+	<hr/>
+
+	<p></p>
+	
+</article>
+
+<article style="top:135px;padding:2px;left:50%;margin:auto;min-width:590px;max-width:960px;background-color:#CADD92;display:block;">
+<h3>You made it all this way, make sure to carve your name into the tree so I know you were here. Fill out the form below with whatever information you think is pertinent. I welcome all comments and suggestions, but most of all I want compliments! If you need an actual tree to imagine, I provide a selection <a href="#lake">below</a> for you to look at. You can find it on the <a href="https://www.wta.org/go-hiking/hikes/trout-lake" target="_blank">Trout Lake trail</a> in the Alpine Lakes Wilderness of Western Washington.</h3>
+</article>
+
+
+<article style="top:135px;padding:2px;left:50%;margin:auto;min-width:590px;max-width:960px;background-color:#CADD92;display:block;">
+<hr style="width:100%; height:12px;	color: black; border-width:8px;"/>
+<form autocomplete="on" method="post" action="http://ss1.ciwcertified.com/cgi-bin/process.pl" target="_blank">
+<fieldset>
+<legend>Guestbook Sign-in</legend>
+
+<table>
+<tr>
+<td>
+<fieldset>
+<legend>About Me:</legend>
+First Name:<br/>
+<input type="text" name="firstname" autofocus required><br/>
+Last Name:<br/>
+<input type="text" name="lastname"><br/>
+My Website:<br/>
+<textarea name="website" cols="30" rows="1">https://</textarea><br/>
+Add me to your Mailing List: Yes<input type="radio" name="mailinglist" value="Yes"> / No<input type="radio" name="mailinglist" value="No" checked><br/>
+Use this email:<input type="email" name="email" placeholder="email@email">
+
+</fieldset>
+</td>
+<td>
+<fieldset>
+<legend>Comments and Questions</legend>
+<textarea name="comments" cols="30" rows="6"/>Leave us a note!</textarea><br/>
+How did you learn about this site?<br/>
+<select name="howfound">
+<option value="friend">A friend told me</option>
+<option>Search Engine</option>
+<option>Random chance</option>
+<option>I can't...What?</option>
+</select>
+</td>
+</tr>
+</table>
+<input type="submit" value="Submit"/>
+<input type="reset"/>
+</fieldset>
+</form>
+</article>
+
+<article>
+<img id="lake" src="images/20180831_114605.jpg" width="960px" alt="A view along the Trout Lake trail, Skykomish, Wa"
+</article>
+
+
+<footer>
+</br>
+<hr style="width:50%;">
+<h5>"We travel, some of us forever, to seek other states, other lives, other souls.” - Anaïs Nin</h5>
+<p>All original works copyright &copy; Nathan Tracy, 2018, or their respective owners. All quotations are made up unless otherwise noted.
+
+<br/><script type="text/javascript" >
+document.write("You have been detected using: <strong>"+ navigator.userAgent)
+document.write("</strong>.")
+</script>
+<br/>Current System Time is: <output id="date"></output></p>
+<!-- Bottom nav bar -->
+</footer>
+
 </body>
 </html>
