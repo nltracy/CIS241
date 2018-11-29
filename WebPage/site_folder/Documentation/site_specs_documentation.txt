@@ -9,7 +9,7 @@ I. INTRODUCTION
 
 	A. This document defines the nature of each web page within the site. See the Features and Purposes sections for further information. Questions and comments can be left in the guestbook at <insert website>, or directed to my email above.
 
-II. FEATURES AND PURPOSES OF THE WEBSITE
+II. FEATURES OF THE WEBSITE
 
 	A. Home page - A default landing page for this website, direct traffic and display the latest information. Features include:
 		i. Links to all navigable areas - While featured on all pages, special detail is used to highlight the various pages found here.
@@ -17,10 +17,15 @@ II. FEATURES AND PURPOSES OF THE WEBSITE
 		iii. Feature of the Month - A personal favorite of mine. May or may not be my work, but I want you to see it.
 	B. Interests page - Items of particular interest will be showcased here.
 		i. Links that go outside of this website may be made available.
-		ii. A selection of hobbies, sports, and academic pursuits.
-	C. Reflections page -
-	D. Resume page -
-	E. Guestbook -
-	
+		ii. A selection of hobbies, sports, and academic pursuits shall be listed.
+		iii. Completed personal projects may also be featured.
+	C. Reflections page - A collection of thoughts on the past school quarter, and how it fits in to the pattern of all things.
+	D. Resume page - Current Education, Past work experience, and future goals.
+	E. Guestbook - Send me your thoughts 
+		i. POST method keeps infoprmation private
+		ii. Feedback gathering mechanism
 
+III. PURPOSES
 
+	A. Increase brand recognition of Nathan Tracy
+	B. Show interesting things that other may be curious about.

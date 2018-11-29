@@ -2,8 +2,10 @@
 
 body 
 {
-margin:10px;
+/*margin:10px;*/
 background-color: #cadd92;
+padding-left:5px;
+padding-right:5px;
 }
 
 form 
@@ -13,44 +15,22 @@ font-size: 80%;
 font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
 } 
 
-#big_wide_black_hr
-{
-width:100%;
-height:16px;
-color: black;
-}
 
-#thin_black_hr
-{
-width:100%;
-height:3px;
-color: black;
-}
-
-
-#superbig_wide_hr
-{
-width:100%;
-height:73px;
-}
-
-li a /*changes behavior of <a> elements in lists*/
-{
-display: block;
-width: 90px;
-background-color:#cadd92;
-}
+img.tab {
+    width:42px;
+	height:42px;
+	}
 
 img 
 {
-border:0px;
+border:2px;
 
 }
 
 #article_pic
 {
-	width:435;
-	border:0px;
+	min-width:335;
+	PADDING-right:2px;
 	float:left;
 }
 
@@ -62,11 +42,12 @@ margin-bottom: 9px;
 font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
 }
 
-#aside 
+.aside 
 {
 margin-top: 9px; 
 font-size: 60%;
 color:blue;
+min-width: 185px;
 margin-bottom: 9px;
 font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
 }
@@ -91,71 +72,73 @@ font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
 color: purple;
 }
 
-
-a 
+h5 
 {
-color: blue;
+margin-top: 9px; 
+font-weight: bold; 
+font-size: 120%;
+margin-bottom: 10px; 
+font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+color: purple;
+}
+
+a:link 
+{
+color: #0066ff;
+}
+
+a.visited
+{
+	color:#FFFFFF;
 }
 
 
 header 
 {		
 display:block;
-width:960px;
+width:100%;
+min-width:590px;           
 position: fixed;
+position: -webkit-sticky; /*safari*/
 margin:auto;/*changed to auto */
 padding:0px;
-margin-bottom:0;
 background-color:#000000;
-}
-		
-	
-/*#head  
-{	
-padding:0px; 
-margin:0px;
-border:0px;
-height:62px;
-background:#CADD92;
-}
-	*/	
-#navbar	 
-{
-margin:0px;
-padding:0px;
-border:0px;
-height:22px;
+left:50%;
 text-align:center;
+top:0;
+	transform: translateX(-50%);
+	border: 3px solid #FFFFFF;
+	clear:both;
+	color:#FFFFFF;
+	height:130px;
+z-index:4;
 }
-		
-#subnav 
-{
-margin:0px;
-padding:0px;
-border:0px;
-height:16px;}
 
 article 	
 {			
 padding:2px;
-top:130px;
-left:50%;
+/*left:50%;
+transform: translateX(-50%);*/
 margin:auto; /*changed to auto from left 170px*/
 max-width:960px;
 background-color:#CADD92;
 display:block;
-/*height:650px;   Lets see what happens */
+position:relative;
+top:125px;
+clear:both;
+color:#0;
+min-width:590px;
+text-align: left;
+font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+font-size: 100%;
+margin-top: 0;
 }
 
-#leadarticle
-{
-	h2{font-size:140%;color:blue;}
-}
 
-.fixed_big_header
+div.fixed_big_header
 {
 	position:fixed; /*remd top and left 0 */
-	left:50%; /*cener it!*/
+	left:50%; /*center it!*/
 	top:0;
 	transform: translateX(-50%);
 	border: 3px solid #FFFFFF;
@@ -173,65 +156,20 @@ padding: 0px;
 margin-top: 0;
 background-color:#000000;
 }
-nav.sticky 
-{
-display:block;
-float:left;
-width:165px;
-position:sticky;
-position: -webkit-sticky; /*Safari code */
-top: 0px;
-background-image:url("images/nav_one_background.png");
-background-size:cover;
-background-repeat:no-repeat;
-height:150px;  /*650 */
-}
 
 footer 
 {
 clear:both;
 max-width:960px;
-left:50%;
 display:block;
 text-align:center;
+min-width:590px;
 font-family:Arial, Helvetica, Geneva, Swiss, sans-serif;
 font-size:80%;
+top:125px;
 padding:0;
+position:relative;
 margin:auto;/*changed to auto */
-margin-top:0;
 background-color:#CADD92;
+z-index:99;
 }
-/* Testing responsive DHTML for small screens
-
-@media screen and (max-width: 650px)
- {
-    nav 
-	{
-		width: 100px;
-		float: left;
-		position:fixed;
-		}
-    article
-	{
-		width:380;
-		margin-left: 105px;
-		}
-	footer
-		{
-			width:480px;
-		}
-	header
-	{
-		width: 480
-		position: fixed;
-		padding:100px;
-	}
-	#article_pic
-	{
-	width:100%;
-	float:top;
-	border:0px;
-	}
-}
-
-*/

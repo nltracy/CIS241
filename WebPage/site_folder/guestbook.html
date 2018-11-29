@@ -20,6 +20,21 @@
 	
 	<script src="Scripts/date.js"></script> <!--Date functions -->
 	
+	<style> <!-- Embedded Style for a polaroid style pic-->
+	div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  background-color: white;
+  padding: 10px 20px;
+}
+	</style>
+	
 </head>
 
 	
@@ -27,30 +42,28 @@
 <body>
 
 <header>
-<div style="position:fixed;left:50%;top:0;transform: translateX(-50%);border: 3px solid #FFFFFF;clear:both;	color:#FFFFFF;min-width:590px;max-width:960px;height:130px;
-margin: auto;display:block;text-align: center;font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;font-size: 100%;padding: 0px;margin-top: 0;background-color:#000000;">
-<h1 style="color:white;font-size:300%;margin-top:10px;text-align:center;">Nathan Tracy, briefly</h1>
+<div>
+<h1 style="color:white;font-size:300%;margin-top:10px;text-align:center;">Nathan Tracy, briefly.</h1>
 <p style="font-size:120%;"><strong><a href="home.html">HOME</a> | <a href="interests.html">INTERESTS</a> | <a href="reflections.html">REFLECTIONS</a> | <a href="resume.html">RESUME</a> | GUESTBOOK</strong></p>
 
 </div>
 </header> 
 
-<article style="top:135px;padding:2px;left:50%;margin:auto;min-width:590px;max-width:960px;background-color:#CADD92;display:block;">
-<!-- more than one, yeah? Dont forget the asides -->
-	<h2 style="padding-top:125px">GUESTBOOK</h2>
+<article style="top:125px;">
+
+	<h2>GUESTBOOK</h2>
 	<hr/>
-
 	<p></p>
-	
 </article>
 
-<article style="top:135px;padding:2px;left:50%;margin:auto;min-width:590px;max-width:960px;background-color:#CADD92;display:block;">
-<h3>You made it all this way, make sure to carve your name into the tree so I know you were here. Fill out the form below with whatever information you think is pertinent. I welcome all comments and suggestions, but most of all I want compliments! If you need an actual tree to imagine, I provide a selection <a href="#lake">below</a> for you to look at. You can find it on the <a href="https://www.wta.org/go-hiking/hikes/trout-lake" target="_blank">Trout Lake trail</a> in the Alpine Lakes Wilderness of Western Washington.</h3>
+<article>
+<h3>You made it all this way so make sure to carve your name into the tree so I know you were here. Fill out the form below with whatever information you think is pertinent. I welcome all comments and suggestions, but most of all I want compliments! If you need an actual tree to imagine, I provide a selection <a href="#lake">below</a> for you to look at. You can find it on the <a href="https://www.wta.org/go-hiking/hikes/trout-lake" target="_blank">Trout Lake trail</a> in the Alpine Lakes Wilderness of Western Washington.</h3>
 </article>
 
 
-<article style="top:135px;padding:2px;left:50%;margin:auto;min-width:590px;max-width:960px;background-color:#CADD92;display:block;">
+<article>
 <hr style="width:100%; height:12px;	color: black; border-width:8px;"/>
+<div style="background-image: url(images/golden-parchment-paper-texture.jpg); background-repeat:cover;">
 <form autocomplete="on" method="post" action="http://ss1.ciwcertified.com/cgi-bin/process.pl" target="_blank">
 <fieldset>
 <legend>Guestbook Sign-in</legend>
@@ -61,11 +74,11 @@ margin: auto;display:block;text-align: center;font-family: Arial, Helvetica, Gen
 <fieldset>
 <legend>About Me:</legend>
 First Name:<br/>
-<input type="text" name="firstname" autofocus required><br/>
+<input type="text" name="firstname" cols="40"autofocus required><br/>
 Last Name:<br/>
-<input type="text" name="lastname"><br/>
+<input type="text" name="lastname" cols="40"><br/>
 My Website:<br/>
-<textarea name="website" cols="30" rows="1">https://</textarea><br/>
+<textarea name="website" cols="40" rows="1">https://</textarea><br/>
 Add me to your Mailing List: Yes<input type="radio" name="mailinglist" value="Yes"> / No<input type="radio" name="mailinglist" value="No" checked><br/>
 Use this email:<input type="email" name="email" placeholder="email@email">
 
@@ -74,7 +87,7 @@ Use this email:<input type="email" name="email" placeholder="email@email">
 <td>
 <fieldset>
 <legend>Comments and Questions</legend>
-<textarea name="comments" cols="30" rows="6"/>Leave us a note!</textarea><br/>
+<textarea name="comments" cols="40" rows="6"/>Leave us a note!</textarea><br/>
 How did you learn about this site?<br/>
 <select name="howfound">
 <option value="friend">A friend told me</option>
@@ -89,16 +102,22 @@ How did you learn about this site?<br/>
 <input type="reset"/>
 </fieldset>
 </form>
+</div>
 </article>
 
 <article>
-<img id="lake" src="images/20180831_114605.jpg" width="960px" alt="A view along the Trout Lake trail, Skykomish, Wa"
+<div class="polaroid">
+<img id="lake" src="images/20180831_114605.jpg" width="960px" alt="A view along the Trout Lake trail, Skykomish, Wa">
+<div class="container">
+<p>Trout Lake, Alpine Lakes Wilderness</p>
+</div>
+</div>
 </article>
 
 
 <footer>
 </br>
-<hr style="width:50%;">
+<hr style="width:75%;">
 <h5>"We travel, some of us forever, to seek other states, other lives, other souls.” - Anaïs Nin</h5>
 <p>All original works copyright &copy; Nathan Tracy, 2018, or their respective owners. All quotations are made up unless otherwise noted.
 
