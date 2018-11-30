@@ -3,7 +3,7 @@
 body 
 {
 /*margin:10px;*/
-background-color: #96858F/*cadd92;*/
+background-color: #565656;/*cadd92;*/
 padding-left:5px;
 padding-right:5px;
 color: #D5D5D5;
@@ -83,10 +83,7 @@ font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
 color: purple;
 }
 
-a.header_links:link , a.header_links:visited
-{
-color: #ffffff;
-}
+
 
 a:link, a:visited
 {
@@ -112,6 +109,9 @@ top:0;
 	color:#FFFFFF;
 	height:130px;
 z-index:4;
+{
+color: #ffffff;
+}
 }
 
 article 	
