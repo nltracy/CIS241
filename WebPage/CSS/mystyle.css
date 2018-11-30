@@ -82,16 +82,10 @@ font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
 color: purple;
 }
 
-a:link 
+a:link , a:visited
 {
-color: #0066ff;
+color: #ffffff;
 }
-
-a.visited
-{
-	color:#FFFFFF;
-}
-
 
 header 
 {		
