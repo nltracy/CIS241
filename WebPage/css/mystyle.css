@@ -60,7 +60,7 @@ font-weight: bold;
 font-size: 120%;
 margin-bottom: 10px; 
 font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
-color: purple;
+color: #D7CEC7;
 }
 
 h3 
@@ -70,7 +70,7 @@ font-weight: bold;
 font-size: 100%;
 margin-bottom: 10px; 
 font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
-color: purple;
+color: #D7CEC7;
 }
 
 h5 
@@ -80,7 +80,7 @@ font-weight: bold;
 font-size: 120%;
 margin-bottom: 10px; 
 font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
-color: purple;
+color: #D7CEC7;
 }
 
 
@@ -121,12 +121,12 @@ padding:2px;
 transform: translateX(-50%);*/
 margin:auto; /*changed to auto from left 170px*/
 max-width:960px;
-background-color:#CADD92;
+/*background-color:#CADD92;*/
 display:block;
 position:relative;
 top:125px;
 clear:both;
-color:#0;
+/*color:#0;*/
 min-width:590px;
 text-align: left;
 font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
@@ -170,6 +170,6 @@ top:125px;
 padding:0;
 position:relative;
 margin:auto;/*changed to auto */
-background-color:#CADD92;
+/*background-color:#CADD92;*/
 z-index:99;
 }
